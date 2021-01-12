@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In | Sign Up</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- <link rel="stylesheet" href="../css/stylee.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <a href="../index.html">
+            <h1><span class="highlight">Rento</span></h1>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">For Rent</a></li>
+            <li><a href="about.html">For Sale</a></li>
+            <li><a href="addEntry.html">Post a Property</a></li>
+            <li><a href="signup.html" class="button_1">Login / Sign Up</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="login()">
+            Log In
+          </button>
+          <button type="button" class="toggle-btn" onclick="signup()">
+            Sign Up
+          </button>
+        </div>
+        <form id="login" action="" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+
+          <input type="checkbox" class="check-box" />
+          <span>Remember Password</span>
+
+          <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form id="signup" action="" class="input-group">
+          <input
+            type="text"
+            class="input-field"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="email"
+            class="input-field"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            class="input-field"
+            placeholder="Password"
+            required
+          />
+
+          <input type="checkbox" class="check-box" />
+          <span class="agree">I agree to the terms and conditions</span>
+
+          <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="../index.js"></script>
+  </body>
+</html>

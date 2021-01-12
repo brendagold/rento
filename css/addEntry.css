@@ -1,0 +1,93 @@
+@import 'style.css';
+
+
+
+
+
+/* .text-area {
+  display: flex;
+  justify-content: center;
+} */
+
+
+input[type=text], [type=number], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #e8491d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #eb4112;
+}
+
+.form-div {
+  border-radius: 5px;
+  width: 600px;
+  background-color: #727070;
+  padding: 30px;
+  position: relative;
+  
+  
+  box-shadow: 0 0 20px 9px #1d17141f;
+}
+.text-area {
+  position: relative;
+  top: 30px;
+  left: 30%;
+}
+
+.entry-btn {
+  display: block;
+  margin-top: 20px;
+}
+
+.card {
+  padding: 0.5rem 1rem;
+  border: 1px solid #eee;
+  margin: 0.3rem 0;
+  border-radius: 5px;
+  width: 50%;
+}
+
+#text,
+#title {
+  background: transparent;
+  color: var(--clr-light);
+  border: 2px solid white;
+  width: 30%;
+}
+
+#title {
+  height: 40px;
+  display: block;
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+small {
+  color: #ccc;
+}
+p {
+  font-family: sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .text-area {
+    left: 20%;
+  }
+}

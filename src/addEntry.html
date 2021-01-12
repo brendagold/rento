@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add an Entry</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/addEntry.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <a href="../index.html">
+            <h1><span class="highlight">Rento</span></h1>
+          </a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" >For Rent</a></li>
+            <li><a href="about.html">For Sale</a></li>
+            <li><a href="addEntry.html" class="current">Post a Property</a></li>
+            <li><a href="signup.html" class="button_1">Login / Sign Up</a></li>
+            
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="">
+<div class="text-area">
+  <h3>Post a Property</h3>
+  <p>Put your property in front of millions of home-seekers</p>
+
+<div class="form-div">
+  <form action="">
+    <label for="title">Title</label>
+    <input type="text" id="post-title" name="firstname" placeholder="e.g A fully furnished 4 bedrooms duplex">
+
+    <label for="purpose">Purpose</label>
+    <select id="purpose" name="purpose">
+      <option value="">--select--</option>
+      <option value="rent">For Rent</option>
+      <option value="sale">For Sale</option>
+      <option value="shortlet">Short Let</option>
+    </select>
+
+    <label for="type_of_property">Type of Property</label>
+    <select id="type_of_property" name="type_of_property">
+      <option value="">--select--</option>
+      <option value="2bf">2 Bedroom Flat</option>
+      <option value="3bf">3 Bedroom Flat</option>
+      <option value="duplex"> Duplex</option>
+      <option value="miniflat">Mini Flat</option>
+      <option value="office">Office Space</option>
+      <option value="land">Land</option>
+    </select>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="">--select--</option>
+      <option value="australia">Nigeria</option>
+      
+    </select>
+
+    <label for="state">State</label>
+    <select id="state" name="state">
+      <option value="">--select--</option>
+      <option value="lagos">Lagos</option>
+      <option value="abuja">Abuja</option>
+      <option value="rivers">Rivers</option>
+    </select>
+  
+    <label for="price"> Price (#)</label>
+    <input type="number" name="price" id="price">
+
+    <label for="description">Description</label>
+    <textarea name="description" id="" cols="30" rows="10"></textarea>
+
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</div>
+</div>
+    <div class="text-area" id="rs"></div>
+
+    <script src="../index.js"></script>
+  </body>
+</html>
