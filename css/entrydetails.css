@@ -1,0 +1,101 @@
+@import 'style.css';
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.whitebox {
+    background: white;
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 5px;
+}
+
+.top-title {
+    height: 100px;
+    
+    position: relative;
+}
+
+.top-header {
+    padding: 10px;
+}
+
+.top-price {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-weight: bold;
+    color: purple;
+    font-size: 20px;
+}
+
+.property-img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.properties {
+    height: 80px;
+    margin-top: 30px;
+    position: relative;
+    
+}
+
+.propertiess {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+.avail {
+    position: absolute;
+    
+    bottom: 0.5px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.sidebar-1 {
+    margin-top: 10px;
+    height: 250px;
+    
+}
+
+.agent-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agent-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.safetybox {
+    padding: 20px;
+    margin-top: 30px;
+}
+.safe-title {
+    text-align: center;
+}
+
+.descr {
+   padding: 30px;
+    margin-top: 30px;
+    
+}

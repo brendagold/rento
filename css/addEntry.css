@@ -86,6 +86,22 @@ p {
   font-family: sans-serif;
 }
 
+.whitebox {
+  background: white;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 5px;
+  
+}
+
+tr {
+  margin-top: 20px;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   .text-area {
     left: 20%;

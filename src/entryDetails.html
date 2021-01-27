@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Entry Title</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/addEntry.css" />
+    <link rel="stylesheet" href="../css/entrydetails.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,32 +21,90 @@
         </div>
         <nav>
           <ul>
-            <li><a href="index.html" >For Rent</a></li>
+            <li><a href="index.html">For Rent</a></li>
             <li><a href="about.html">For Sale</a></li>
             <li><a href="addEntry.html" class="current">Post a Property</a></li>
             <li><a href="signup.html" class="button_1">Login / Sign Up</a></li>
-            
           </ul>
         </nav>
       </div>
     </header>
 
     <div class="container">
-      <h3 class="title">Entry Title</h3>
-      <p class="entry-content" id="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, unde!
-        Accusamus voluptatem exercitationem rem laborum, eius, sint vitae sunt
-        assumenda quo suscipit dignissimos pariatur quod nemo error voluptate
-        debitis! Similique dolores dolorum ex, assumenda minima aspernatur
-        consequatur veritatis autem ipsa dolore consectetur ab cum saepe nam
-        ducimus odit numquam quas?
-      </p>
+      <div class="grid-container">
+        <div class="grid-child purple">
+          <div class="top-title whitebox">
+            <h1 class="top-header">Fully furnished apartment</h1>
+            <p class="top-price">₦55,000,000</p>
+          </div>
 
-      <a href="#" class="link-entry">edit</a>
-      <a href="#" class="link-entry">delete</a>
-      <a href="#" class="btnn">Save</a>
+          <div>
+            <img src="/img/banner.jpeg" alt="" class="property-img" />
+          </div>
+
+          <div class="properties whitebox">
+            <p class="propertiess">2 bedrooms flat for rent</p>
+            <p class="avail">Available</p>
+          </div>
+
+          <div class="descr whitebox">
+            <div>
+              <h3>Key Features</h3>
+              <ul>
+                <li>Ocean View</li>
+                <li>Church Nearby</li>
+                <li>All Room Ensuit</li>
+                <li>24 hours Electricity</li>
+                <li>CCTV Cameras</li>
+                <li>Children Play Ground</li>
+                <li>Office Supplies</li>
+                <li>POP Ceiling</li>
+                <li>Supermarket Nearby</li>
+                <li>C of O</li>
+                <li>24 Hours Security</li>
+              </ul>
+              <p class="entry-content" id="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                unde! Accusamus voluptatem exercitationem rem laborum, eius,
+                sint vitae sunt assumenda quo suscipit dignissimos pariatur quod
+                nemo error voluptate debitis! Similique dolores dolorum ex,
+                assumenda minima aspernatur consequatur veritatis autem ipsa
+                dolore consectetur ab cum saepe nam ducimus odit numquam quas?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid-child green">
+          <div class="sidebar-1 whitebox">
+            <img src="../img/face2.jpg" alt="" class="agent-img" />
+            <p class="agent-name">Bright Maculay</p>
+            <p class="agent-name">0813-264-5433</p>
+          </div>
+
+          <div class="whitebox safetybox">
+            <h3 class="safe-title">Safety Tips</h3>
+            <ol>
+              <li>
+                Do not make any upfront payment as inspection fee before seeing
+                the property or seeing the agent you contacted physically.
+              </li>
+              <li>
+                When you find a property of your interest, make sure to do an
+                appropriate finding of whom the rent and other fees are to be
+                paid to.
+              </li>
+              <li>
+                All meetings with agents should be done in open locations. The
+                agent is not a representative from PropertyPro.ng neither does
+                PropertyPro.ng control the affairs of the agent as both parties
+                are different entities.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <script src="../index.js"></script>
+    <!-- <script src="../index.js"></script> -->
   </body>
 </html>
